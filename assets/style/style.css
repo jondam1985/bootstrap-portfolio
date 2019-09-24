@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../images/polaroid.png)
+}
+
+#header {
+    box-sizing: border-box;
+    height: 100px;
+    background-color: #ffffff;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #cccccc;
+}
+
+#logo {
+    box-sizing: border-box;
+    background-color: #4aaaa5;
+    padding-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 25px;
+    color: white;
+}
+
+#nav-bar {
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+
+#main-section {
+    background-color: #ffffff;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color:#4aaaa5;
+    margin-top: 20px;
+}
+
+#footer {
+    box-sizing: border-box;
+    background-color: #666666;
+    height: 50px;
+    text-align: center;
+    border-top: 4px solid #4aaaa5;
+    margin-top: 100vh;
+}
