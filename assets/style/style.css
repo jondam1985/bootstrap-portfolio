@@ -7,6 +7,10 @@ body {
     background-image: url(../images/polaroid.png)
 }
 
+#pusher {
+    min-height: calc(100vh - 50px);
+}
+
 #header {
     box-sizing: border-box;
     height: 100px;
@@ -32,6 +36,7 @@ body {
 
 #main-section {
     background-color: #ffffff;
+    margin-bottom: 50px;
 }
 
 h1 {
@@ -40,11 +45,18 @@ h1 {
     margin-top: 20px;
 }
 
+.name-of-app {
+    position: relative;
+    bottom: 60px;
+    width: 200px;
+    z-index: 1000;
+}
+
 #footer {
     box-sizing: border-box;
     background-color: #666666;
-    height: 50px;
+    height: 51px;
     text-align: center;
     border-top: 4px solid #4aaaa5;
-    margin-top: 100vh;
+    padding-top: 10px;
 }
